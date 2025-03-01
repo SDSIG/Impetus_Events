@@ -3,7 +3,7 @@ import EventsPage from "./components/EventsPage";
 const App = () => {
   return (
     <>
-    < npEventsPage/>
+    < EventsPage/>
        
     </>
   );
