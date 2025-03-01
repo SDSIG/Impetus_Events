@@ -34,6 +34,8 @@ import {
   telegram,
   twitter,
   yourlogo,
+  aboutimpetus,
+  flagship,
 } from "../assets";
 
 export const navigation = [
@@ -46,12 +48,12 @@ export const navigation = [
   {
     id: "1",
     title: "Events",
-    url: "#pricing",
+    url: "#events",
   },
   {
     id: "2",
     title: "Gallery",
-    url: "#how-to-use",
+    url: "#gallery",
   },
   {
     id: "3",
@@ -61,7 +63,7 @@ export const navigation = [
   {
     id: "4",
     title: "Contact",
-    url: "#signup",
+    url: "#contact",
     onlyMobile: true,
   },
   
@@ -92,7 +94,7 @@ export const roadmap = [
     id: "0",
     title: "ABOUT IMPETUS",
     text: "IMPETUS is our Annual National-Level Technical Extravaganza. It is a two-day technical fest happening in UVCE since the year 2001 with a different theme every year, which emphasizes on the particular year's trending and concerning topics. IMPETUS serves as a platform for many participants to showcase their ideas and talents, as this fest is a hub of many Flagship events, General events and Gaming Arenas. With years passing, IMPETUS has witnessed gradual growth in participants count marking the highest of 2472 participants in the year 2023.",
-    imageUrl: roadmap2,
+    imageUrl: aboutimpetus,
     colorful: true,
   },
   {
@@ -100,7 +102,7 @@ export const roadmap = [
     title: "FLAGSHIP EVENTS",
     text: "IEEE UVCE hosts a various flagship events in IMPETUS every year, aimed at bringing together professionals, industries from different domains and backgrounds to network, learn, and share knowledge. Our flagship events are designed to provide attendees with valuable insights, practical skills, and industry updates. We offer a wide range of events to cater to different interests and needs, including conferences, workshops, webinars, and more.",
     date: "May 2023",
-    imageUrl: roadmap2,
+    imageUrl: flagship,
     colorful: true,
   },
   {
@@ -116,7 +118,7 @@ export const roadmap = [
     title: "GAMING EVENTS & ARENAS",
     text: "Extending the boundaries, IEEE UVCE also hosts Gaming events and Arenas as a part of IMPETUS where the gaming enthusiasts get an opportunity to play along with participants from various colleges and universities. This includes games like BGMI, Valorant, Online Chess etc.",
     date: "May 2023",
-    imageUrl: roadmap3,
+    imageUrl: roadmap2,
     colorful: true,
   },
 ];

@@ -22,6 +22,8 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 import astro from "./hero/astro.jpg";
 import ieee from "./hero/ieee1.png";
+import aboutimpetus from "../assets/aboutimpetus.png";
+import flagship from "../assets/flagship.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.png";
@@ -148,4 +150,6 @@ export {
   twitter,
   astro,
   ieee,
+  aboutimpetus,
+  flagship,
 };
