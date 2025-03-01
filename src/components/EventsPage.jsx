@@ -88,7 +88,7 @@ const EventsLanding = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             IEEE UVCE PRESENTS ANNUAL NATIONAL-LEVEL <br /> TECHNICAL STUDENT EXTRAVAGANZA
           </p>
-          <h1 className="h1 mb-6 text-7xl md:text-5xl lg:text-9xl">
+          <h1 className="h1 mb-6 text-7xl md:text-5xl lg:text-9xl font-daggersquare">
             <span className="inline-block relative font-daggersquare">
               IMPETUS 25.0
             </span>
