@@ -199,6 +199,7 @@ export default function EventsPage() {
     { name: "IPL Auction", description: "Cricket auction simulation..." },
     { name: "Synthetic Intelligence", description: "AI-driven problem-solving..." },
     { name: "Tantragyan Tarka", description: "Tech-based quiz & discussion..." },
+    { name: "DATA QUEST", description: "An event by GDSC..." },
     {
       name: "The Time Traveler's Code",
       description: "Solve coding puzzles across time periods...",
