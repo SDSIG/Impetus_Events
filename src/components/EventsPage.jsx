@@ -305,28 +305,24 @@ export default function EventsPage() {
           <br />
 
           {/* Gaming Events */}
-          <section className="mt-16">
-            <h1 className="text-4xl font-bold mb-6 text-center">Gaming Events</h1>
-            <br />
-            <br />
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {gamingEvents.map((event, index) => (
-                <div key={index} className="bg-n-6 p-5 rounded-xl shadow-lg flex flex-col">
-                  <div className="h-48 bg-n-4 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-lg">Image Placeholder</span>
-                  </div>
-                  <h2 className="text-2xl font-semibold mb-2">{event.name}</h2>
-                  {/* Buttons with custom gradient border (right side remains normal) */}
-                  <div className="mt-auto flex flex-col gap-2">
-                    <CustomGradientButton onClick={() => openModal(event)}>
-                      View
-                    </CustomGradientButton>
-                    <CustomGradientButton>Register</CustomGradientButton>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
+          <section className="mt-16 w-full flex flex-col items-center overflow-hidden">
+  <h1 className="text-4xl font-bold mb-6 text-center">Gaming Events</h1>
+  <div className="flex justify-center items-center w-full max-w-screen-lg gap-6 flex-wrap">
+    {gamingEvents.map((event, index) => (
+      <div key={index} className="bg-n-6 p-5 rounded-xl shadow-lg flex flex-col w-80">
+        <div className="h-48 bg-n-4 rounded-lg mb-4 flex items-center justify-center">
+          <span className="text-lg">Image Placeholder</span>
+        </div>
+        <h2 className="text-2xl font-semibold mb-2">{event.name}</h2>
+        <div className="mt-auto flex flex-col gap-2">
+          <CustomGradientButton onClick={() => openModal(event)}>View</CustomGradientButton>
+          <CustomGradientButton>Register</CustomGradientButton>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
         </div>
         {isModalOpen && selectedEvent && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-5 z-50">
