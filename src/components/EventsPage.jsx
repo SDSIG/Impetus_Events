@@ -316,7 +316,9 @@ export default function EventsPage() {
         <h2 className="text-2xl font-semibold mb-2">{event.name}</h2>
         <div className="mt-auto flex flex-col gap-2">
           <CustomGradientButton onClick={() => openModal(event)}>View</CustomGradientButton>
-          <CustomGradientButton>Register</CustomGradientButton>
+          <CustomGradientButton>
+        <a href={event.registerLink} target = "_blank" rel="noopener noreferrer">Register</a>
+        </CustomGradientButton>
         </div>
       </div>
     ))}
