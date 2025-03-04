@@ -205,23 +205,23 @@ export default function EventsPage() {
   ];
 
   const generalEvents = [
-    { name: "Brain Bids 2.0", description: "An auction-based strategy game..." },
-    { name: "Escape Room: UVCE Edition", description: "Solve puzzles to escape..." },
-    { name: "IPL Auction", description: "Cricket auction simulation..." },
-    { name: "Synthetic Intelligence", description: "AI-driven problem-solving..." },
-    { name: "Tantragyan Tarka", description: "Tech-based quiz & discussion..." },
-    { name: "DATA QUEST", description: "An event by GDSC..." },
+    { name: "Brain Bids 2.0", description: "An auction-based strategy game...",  registerLink: "https://unstop.com/p/brainbids-20-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416828",},
+    { name: "Escape Room: UVCE Edition", description: "Solve puzzles to escape...", registerLink: "https://unstop.com/p/escape-room-uvce-edition-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416863",},
+    { name: "IPL Auction", description: "Cricket auction simulation..." , registerLink: "https://unstop.com/p/ipl-auction-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416870",},
+    { name: "Synthetic Intelligence", description: "AI-driven problem-solving...", registerLink: "https://unstop.com/p/synthetic-intelligence-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416876", },
+    { name: "Tantragyan Tarka", description: "Tech-based quiz & discussion..." ,registerLink: "https://unstop.com/p/tantragyana-tarka-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416884" },
+    { name: "DATA QUEST", description: "An event by GDSC..." ,registerLink: "https://unstop.com/p/dataquest-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416839",},
     {
       name: "The Time Traveler's Code",
-      description: "Solve coding puzzles across time periods...",
+      description: "Solve coding puzzles across time periods...", registerLink: "https://unstop.com/p/the-time-travelers-code-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416900",
     },
-    { name: "Think Tank", description: "A brainstorming and ideation challenge..." },
+    { name: "Think Tank", description: "A brainstorming and ideation challenge...", registerLink: "https://unstop.com/p/think-tank-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418135" },
   ];
 
   const gamingEvents = [
-    { name: "BGMI Tournament", description: "Battle Royale gaming tournament..." },
-    { name: "Chess Mania", description: "Competitive chess tournament..." },
-    { name: "Valorant", description: "5v5 tactical shooter tournament..." },
+    { name: "BGMI Tournament", description: "Battle Royale gaming tournament...", registerLink:"https://unstop.com/p/bgmi-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418140" },
+    { name: "Chess Mania", description: "Competitive chess tournament...", registerLink:"https://unstop.com/p/chessmania-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418166" },
+    { name: "Valorant", description: "5v5 tactical shooter tournament...", registerLink: "https://unstop.com/p/valorant-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418158" },
   ];
 
   // Open the modal with the selected event
@@ -293,7 +293,9 @@ export default function EventsPage() {
                     <CustomGradientButton onClick={() => openModal(event)}>
                       View
                     </CustomGradientButton>
-                    <CustomGradientButton>Register</CustomGradientButton>
+                    <CustomGradientButton>
+        <a href={event.registerLink} target = "_blank" rel="noopener noreferrer">Register</a>
+        </CustomGradientButton>
                   </div>
                 </div>
               ))}
