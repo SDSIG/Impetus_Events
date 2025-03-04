@@ -178,7 +178,7 @@ export default function EventsPage() {
       description:
         "Welcome to Brand It—where innovation meets strategy! Teams will build a brand from the ground up, designing logos, color schemes, product visuals, and packaging. Earn bonus points for compelling promotional materials in this multi-day showdown of creativity and competition. Get ready to brand like a pro!",
         image: "/images/brandit.jpeg",
-        registerLink: "https://unstop.com/p/civicture-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416109",
+        registerLink: "https://unstop.com/p/brand-it-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416098",
     },
     {
       name: "Mechronins",
