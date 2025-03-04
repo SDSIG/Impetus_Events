@@ -136,60 +136,71 @@ export default function EventsPage() {
       description:
         "CODESTORM is a dynamic coding competition designed to test problem-solving skills and drive technological excellence. Featuring diverse challenges that gauge proficiency, participants embark on an exciting journey of innovation and skill refinement. Be part of the experience—unleash your coding prowess and shape the future of tech!",
         image: "/images/codestorm.jpeg",
+        registerLink: "https://unstop.com/p/codestorm-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416111",
     },
     {
       name: "Mock Placements",
       description:
         "Mock placements give students a realistic simulation of actual placement drives, offering hands-on experience and valuable feedback to refine their interview skills.",
         image: "/images/mockplacements.jpeg",
+        registerLink: "https://unstop.com/p/mock-placements-university-visvesvaraya-college-of-engineering-uvce-bangalore-1415207",
     },
     {
       name: "Silic-o-Hack",
       description:
         "Silic-O-Hack is a simulated hardware hackathon with two rounds utilizing mimetic software, challenging participants to tackle a real-world problem on TinkerCAD within a specified timeframe, employing creative solutions.",
         image: "/images/silic-o-hack.jpeg",
+        registerLink: "https://unstop.com/p/silic-o-hack-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416147",
     },
     {
       name: "Hack-a-Maze",
       description:
         "Dive into Hack-A-Maze, an exciting challenge where you design an autonomous bot to navigate complex mazes independently. The fastest bot to reach the exit wins—test your skills and push the limits of automation!",
         image: "/images/hack-a-maze.jpeg",
+        registerLink:"https://unstop.com/p/hack-a-maze-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416138",
     },
     {
       name: "Summit",
       description:
         "Summit is a dynamic and formal student parliament where participants harness creativity to develop optimal solutions for humanitarian challenges. Carefully structured, this event tackles critical global issues while driving strategic progress.",
         image: "/images/summit.jpeg",
+        registerLink: "https://unstop.com/p/summit-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418190",
     },
     {
       name: "Civicture",
       description:
         "Civicture is a dynamic platform where creativity meets precision in urban planning and design. CIVICTURE kicks off with a thrilling design competition, showcasing participants' innovative ideas, further on the stakes rise as contestants compete in a plan drawing competition, bringing their visions to life with meticulous detail. Join us in shaping the future of urban landscapes!",
         image: "/images/civicture.jpeg",
+        registerLink: "https://unstop.com/p/civicture-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416109",
     },
     {
       name: "Brand IT",
       description:
         "Welcome to Brand It—where innovation meets strategy! Teams will build a brand from the ground up, designing logos, color schemes, product visuals, and packaging. Earn bonus points for compelling promotional materials in this multi-day showdown of creativity and competition. Get ready to brand like a pro!",
         image: "/images/brandit.jpeg",
+        registerLink: "https://unstop.com/p/civicture-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416109",
     },
     {
       name: "Mechronins",
       description:
         "This engaging three-part event features a mix of mechanical-related questions and presentations, making for a fun and interactive experience. Tighten your brain bolts and gear up for an exciting challenge!",
         image: "/images/mechronins.jpeg",
+        registerLink: "https://unstop.com/p/mechronins-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416143",
+
     },
     {
       name: "AvionX",
       description:
         "Gear up for an electrifying aerospace challenge that tests both creativity and technical expertise! The event begins with an engaging and interactive round filled with fun problem-solving elements. But the real test awaits in the next stage, where participants will take on a hands-on engineering challenge tailored to their domain. Working together, different disciplines will contribute their expertise to create a unified aerospace solution, making this a truly multidisciplinary and immersive experience!",
         image: "/images/aviox.jpeg",
+        registerLink: "https://unstop.com/p/avionx-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416126",
     },
     {
       name: "Laser Tag",
       description:
         "Laser Tag is a high-energy event featuring advanced infrared guns and sensor vests. Players navigate a dynamic arena, strategically tagging opponents to score points electronically. With speed, precision, and tactical skill as the keys to victory, get ready for an adrenaline-fueled showdown!",
         image: "/images/lasertag.jpeg",
+        registerLink: "https://unstop.com/p/laser-tag-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416090",
     },
   ];
 
@@ -253,7 +264,9 @@ export default function EventsPage() {
       <CustomGradientButton onClick={() => openModal(event)}>
         View
       </CustomGradientButton>
-      <CustomGradientButton>Register</CustomGradientButton>
+      <CustomGradientButton>
+        <a href={event.registerLink} target = "_blank" rel="noopener noreferrer">Register</a>
+        </CustomGradientButton>
     </div>
   </div>
 ))}
