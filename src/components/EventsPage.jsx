@@ -170,7 +170,7 @@ export default function EventsPage() {
       name: "Civicture",
       description:
         "Civicture is a dynamic platform where creativity meets precision in urban planning and design. CIVICTURE kicks off with a thrilling design competition, showcasing participants' innovative ideas, further on the stakes rise as contestants compete in a plan drawing competition, bringing their visions to life with meticulous detail. Join us in shaping the future of urban landscapes!",
-      image: "/images/civicture.jpeg",
+      image: "/images/civictu.jpeg",
       registerLink: "https://unstop.com/p/civicture-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416109",
     },
     {
