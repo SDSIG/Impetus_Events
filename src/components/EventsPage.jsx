@@ -135,7 +135,7 @@ export default function EventsPage() {
       name: "CodeStorm",
       description:
         "CODESTORM is a dynamic coding competition designed to test problem-solving skills and drive technological excellence. Featuring diverse challenges that gauge proficiency, participants embark on an exciting journey of innovation and skill refinement. Be part of the experience—unleash your coding prowess and shape the future of tech!",
-        image: "/images/codestorm.jpeg",
+        image: "images/codestorm.jpeg",
         registerLink: "https://unstop.com/p/codestorm-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416111",
     },
     {
@@ -177,7 +177,7 @@ export default function EventsPage() {
       name: "Brand IT",
       description:
         "Welcome to Brand It—where innovation meets strategy! Teams will build a brand from the ground up, designing logos, color schemes, product visuals, and packaging. Earn bonus points for compelling promotional materials in this multi-day showdown of creativity and competition. Get ready to brand like a pro!",
-        image: "/images/brandit.jpeg",
+        image: "images/brandit.jpeg",
         registerLink: "https://unstop.com/p/brand-it-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416098",
     },
     {
@@ -205,23 +205,23 @@ export default function EventsPage() {
   ];
 
   const generalEvents = [
-    { name: "Brain Bids 2.0", description: "An auction-based strategy game...",  registerLink: "https://unstop.com/p/brainbids-20-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416828",},
-    { name: "Escape Room: UVCE Edition", description: "Solve puzzles to escape...", registerLink: "https://unstop.com/p/escape-room-uvce-edition-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416863",},
+    { name: "Brain Bids 2.0", description: "An auction-based strategy game...",  registerLink: "https://unstop.com/p/brainbids-20-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416828", image: "images/brainbids.jpeg",},
+    { name: "Escape Room: UVCE Edition", description: "Solve puzzles to escape...", registerLink: "https://unstop.com/p/escape-room-uvce-edition-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416863", image: ""},
     { name: "IPL Auction", description: "Cricket auction simulation..." , registerLink: "https://unstop.com/p/ipl-auction-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416870",},
     { name: "Synthetic Intelligence", description: "AI-driven problem-solving...", registerLink: "https://unstop.com/p/synthetic-intelligence-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416876", },
-    { name: "Tantragyan Tarka", description: "Tech-based quiz & discussion..." ,registerLink: "https://unstop.com/p/tantragyana-tarka-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416884" },
-    { name: "DATA QUEST", description: "An event by GDSC..." ,registerLink: "https://unstop.com/p/dataquest-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416839",},
+    { name: "Tantragyan Tarka", description: "Tech-based quiz & discussion..." ,registerLink: "https://unstop.com/p/tantragyana-tarka-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416884" , image: "images/tantratgy.jpeg"},
+    { name: "DATA QUEST", description: "An event by GDSC..." ,registerLink: "https://unstop.com/p/dataquest-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416839",image: "/images/data quest.jpeg"},
     {
       name: "The Time Traveler's Code",
-      description: "Solve coding puzzles across time periods...", registerLink: "https://unstop.com/p/the-time-travelers-code-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416900",
+      description: "Solve coding puzzles across time periods...", registerLink: "https://unstop.com/p/the-time-travelers-code-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416900", image: "images/timetrave.jpeg"
     },
-    { name: "Think Tank", description: "A brainstorming and ideation challenge...", registerLink: "https://unstop.com/p/think-tank-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418135" },
+    { name: "Think Tank", description: "A brainstorming and ideation challenge...", registerLink: "https://unstop.com/p/think-tank-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418135", image:"images/thinktank.jpeg" },
   ];
 
   const gamingEvents = [
-    { name: "BGMI Tournament", description: "Battle Royale gaming tournament...", registerLink:"https://unstop.com/p/bgmi-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418140" },
-    { name: "Chess Mania", description: "Competitive chess tournament...", registerLink:"https://unstop.com/p/chessmania-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418166" },
-    { name: "Valorant", description: "5v5 tactical shooter tournament...", registerLink: "https://unstop.com/p/valorant-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418158" },
+    { name: "BGMI Tournament", description: "Battle Royale gaming tournament...", registerLink:"https://unstop.com/p/bgmi-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418140", image: "images/gaming.jpeg", },
+    { name: "Chess Mania", description: "Competitive chess tournament...", registerLink:"https://unstop.com/p/chessmania-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418166",image: "images/gaming.jpeg", },
+    { name: "Valorant", description: "5v5 tactical shooter tournament...", registerLink: "https://unstop.com/p/valorant-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1418158",image: "images/gaming.jpeg", },
   ];
 
   // Open the modal with the selected event
@@ -284,8 +284,12 @@ export default function EventsPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {generalEvents.map((event, index) => (
                 <div key={index} className="bg-n-6 p-5 rounded-xl shadow-lg flex flex-col">
-                  <div className="h-48 bg-n-4 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-lg">Image Placeholder</span>
+                  <div className="h-67  rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                  <img
+        src={event.image} // Dynamically loads the image
+        alt={event.name}
+        className="w-full h-full object-cover rounded-lg"
+      />
                   </div>
                   <h2 className="text-2xl font-semibold mb-2">{event.name}</h2>
                   {/* Buttons with custom gradient border (right side remains normal) */}
@@ -310,8 +314,12 @@ export default function EventsPage() {
   <div className="flex justify-center items-center w-full max-w-screen-lg gap-6 flex-wrap">
     {gamingEvents.map((event, index) => (
       <div key={index} className="bg-n-6 p-5 rounded-xl shadow-lg flex flex-col w-80">
-        <div className="h-48 bg-n-4 rounded-lg mb-4 flex items-center justify-center">
-          <span className="text-lg">Image Placeholder</span>
+        <div className="h-67 rounded-lg mb-4 flex items-center justify-center">
+        <img
+        src={event.image} // Dynamically loads the image
+        alt={event.name}
+        className="w-full h-full object-cover rounded-lg"
+      />
         </div>
         <h2 className="text-2xl font-semibold mb-2">{event.name}</h2>
         <div className="mt-auto flex flex-col gap-2">
