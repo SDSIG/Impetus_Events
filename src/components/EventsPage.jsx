@@ -184,7 +184,7 @@ export default function EventsPage() {
       name: "Mechronins",
       description:
         "This engaging three-part event features a mix of mechanical-related questions and presentations, making for a fun and interactive experience. Tighten your brain bolts and gear up for an exciting challenge!",
-      image: "/images/mechronins.jpeg",
+      image: "/images/mechr.jpeg",
       registerLink: "https://unstop.com/p/mechronins-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416143",
     },
     {
