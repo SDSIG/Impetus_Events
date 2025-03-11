@@ -142,7 +142,7 @@ export default function EventsPage() {
       name: "Mock Placements",
       description:
         "Mock placements give students a realistic simulation of actual placement drives, offering hands-on experience and valuable feedback to refine their interview skills.",
-      image: "/images/mockplacements.jpeg",
+      image: "/images/mockpla.jpg",
       registerLink: "https://unstop.com/p/mock-placements-university-visvesvaraya-college-of-engineering-uvce-bangalore-1415207",
     },
     {
@@ -177,7 +177,7 @@ export default function EventsPage() {
       name: "Brand IT",
       description:
         "Welcome to Brand It—where innovation meets strategy! Teams will build a brand from the ground up, designing logos, color schemes, product visuals, and packaging. Earn bonus points for compelling promotional materials in this multi-day showdown of creativity and competition. Get ready to brand like a pro!",
-      image: "images/brandit.jpeg",
+      image: "images/branditt.jpg",
       registerLink: "https://unstop.com/p/brand-it-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416098",
     },
     {
