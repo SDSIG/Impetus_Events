@@ -212,7 +212,7 @@ export default function EventsPage() {
     { name: "DATA QUEST", description: "DataQuest is a two-round competition that challenges participants in data cleaning, SQL querying, and data visualisation. Teams will preprocess messy datasets, solve SQL challenges, and build insightful dashboards. Finalists will present their work, showcasing their analytical skills, problem-solving abilities, and storytelling through data.", registerLink: "https://unstop.com/p/dataquest-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416839", image: "/images/dataquest1.jpg" },
     {
       name: "The Time Traveler's Code",
-      description: "Solve coding puzzles across time periods...",
+      description: "The Time Traveler’s Code is an exciting fusion of pop culture, problem-solving, and programming. Travel through time, decode encrypted messages, solve legendary mysteries, and use AI to fix a broken timeline. Finalists must present their solutions to judges, explaining their logic and approach. A challenge for both logic lovers and tech enthusiasts!",
       registerLink: "https://unstop.com/p/the-time-travelers-code-impetus-250-university-visvesvaraya-college-of-engineering-uvce-bangalore-1416900",
       image: "images/timetrave.jpeg"
     },
